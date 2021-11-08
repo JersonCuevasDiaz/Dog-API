@@ -1,0 +1,45 @@
+.title1{
+    text-align: center;
+    background-color: bisque;
+    padding:1rem; 
+}
+
+body{
+    background-color: rgb(245, 240, 234);
+    background-image: url('https://us.123rf.com/450wm/yod67/yod671906/yod67190600102/126018745-vector-de-un-perro-border-collie-en-blanco.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 60%;
+}
+.div{
+    margin-left: 60%;
+}
+.btn1{
+    border: 1px solid;
+    margin-left: 40%;
+    background-color: rgb(69, 212, 100);
+    
+}
+
+
+/* .img_dog{
+   margin-right: auto;
+   margin-left: 10%;
+   /* width: 40%; */
+   /* width: 50vw; */
+   
+/* .table_element {
+    width: 90%; */
+    /* background-color: rgba(181, 228, 212, 0.96); */
+    
+/* } */
+
+/* .th_1{
+    background-color: rgb(201, 151, 151);
+}
+
+
+table, tr, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+} */
