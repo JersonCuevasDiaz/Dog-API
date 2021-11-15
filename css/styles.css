@@ -16,6 +16,7 @@ body{
 .div{
     margin-left: 60%;
 }
+
 .btn1{
     border: 1px solid;
     margin-left: 40%;
@@ -23,7 +24,20 @@ body{
     
 }
 
-#image_dog img{
-   width: 85%;
-   height: 10%;
-} 
+.image_dog img{
+    max-width: 80%;
+    max-height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+}  
+
+.text_errors{
+    border: 0.1px solid;
+    width: 60%;
+    margin-left: 10%;
+    background-color: rgb(185, 189, 178);
+    padding: 3rem;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
