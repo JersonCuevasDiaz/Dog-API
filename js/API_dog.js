@@ -3,10 +3,9 @@ import { doc,img_dog,btn2,inf_error,divInf} from "./main.js";
 doc.addEventListener("click", (e) => {
   e.preventDefault();
   if(e.target === btn2){
-    let rand = "random";
     async function apiAsync() {
       try {
-        let API = await fetch(`https://dog.ceo/api/breeds/image/${rand}`);
+        let API = await fetch(`https://dog.ceo/api/breeds/image/random`);
         let result = await API.json();
         // validation errors
         if (!API.ok || API.status == 404){
